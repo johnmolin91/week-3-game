@@ -1,0 +1,31 @@
+* {
+	background:black;
+	color:white;
+}
+
+h1 {
+	font-size:48px;
+	text-align:center;
+	font-family:Impact, "Charcoal", sans-serif;
+	margin-bottom:20px;
+}
+
+#content {
+	padding:20px;
+	border:10px solid;
+	text-align:center;
+	width:900px;
+	margin:0 auto;
+}
+
+#victory {
+	float:left;
+	padding:20px;
+}
+
+#word {
+	font-size:24px;
+	padding:20px;
+	font-family:Impact, "Charcoal", sans-serif;
+	line-height:2;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<img src="assets/images/techno.png" alt="indie" width="100%" height="300px">
+	<h1>Hangman</h1>
+
+	<div id="content">
+		<div id="victory">
+			<img src="assets/images/flashing.jpg" alt="desert" width="200px" height="200px">
+		</div>
+		<div id="word">
+			<p>Press any key to get started!</p>
+			<div id="wins">Wins: </div>
+			<div id="current"></div>
+			<div id="guesses">Guesses remaining: </div>
+			<div id="left">Letters already guessed: </div>
+	
+<!-- /* Dubstep theme
+Display:
+-press any key to get started
+-Wins
+-the word _ _ _ _ _ _ _
+-reveal letters as user guesses correctly
+-number of guesses remaining
+-letters already guessed (displayed L Z Y H)
+
+Javascript functions:
+-showing the word (how long it is)
+-pressing key makes:
+	-letter revealed
+	-letter put in incorrect list (letters can't be repeated)
+	-number of guesses remaining
+-determining when the user wins
+-automatically starting a new game after user wins */ -->
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
